@@ -1,0 +1,99 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #003399;/* Light background */
+  font-family: 'Arial', sans-serif;
+}
+
+.login-content {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+}
+
+.back-button {
+  background-color: transparent;
+  color: #003399;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.login-title {
+  font-size: 1.5rem;
+  color: #003399;
+  margin-bottom: 20px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-group {
+  text-align: left;
+}
+
+.form-label {
+  font-size: 0.9rem;
+  color: #003399;
+  margin-bottom: 5px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-input:focus {
+  outline: none;
+  border: 2px solid #003399;
+}
+
+.login-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #003399; /* Blue button */
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #002266;
+}
+
+.divider {
+  margin: 20px 0;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+.signup-text {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.signup-link {
+  color: #003399;
+  text-decoration: none;
+}
+
+.signup-link:hover {
+  text-decoration: underline;
+}

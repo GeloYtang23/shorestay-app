@@ -1,0 +1,48 @@
+<div class="container">
+    <!-- Header -->
+    <header>
+      <div class="logo">
+        <h1>ShoreStay</h1>
+        <p>Book your Room and Cottage now!</p>
+      </div>
+      <div class="profile">
+        <img src="/app/assets/room.jpg" alt="Profile Picture" class="profile-pic" />
+      </div>
+    </header>
+  
+    <!-- Search Bar -->
+    <div class="search-bar">
+      <span class="search-icon">🔍</span>
+      <input type="text" placeholder="Search" />
+    </div>
+  
+    <!-- Filter Buttons -->
+    <div class="filters">
+      <button class="filter-btn active">ALL</button>
+      <button class="filter-btn">Rooms</button>
+      <button class="filter-btn">Cottages</button>
+    </div>
+  
+    <!-- Listings Grid -->
+    <div class="listings">
+      <div class="listing-card" *ngFor="let item of listings">
+        <img [src]="item.image" [alt]="item.title" class="listing-image" />
+        <div class="listing-info">
+          <h3>{{ item.title }}</h3>
+          <div class="rating">
+            <span class="star">⭐</span>
+            <span>{{ item.rating }}</span>
+            <span class="heart">♡</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Bottom Navigation -->
+    <nav class="bottom-nav">
+      <button class="nav-btn">🏠</button>
+      <button class="nav-btn">👤</button>
+      <button class="nav-btn">☰</button>
+      <button class="nav-btn">♡</button>
+    </nav>
+  </div>
