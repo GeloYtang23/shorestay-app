@@ -1,0 +1,1 @@
+# shorestay-app
